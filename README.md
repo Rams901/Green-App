@@ -13,7 +13,7 @@ in this link https://github.com/tensorflow/models/tree/master/research/object_de
 
 The greenpet.rar has the files for the Application on androidstudio.
 
-Here is an example on how it would look like in your phone camera.
+Here is an example on how our model generates stickers for flowers:
 ![helloword4](https://user-images.githubusercontent.com/47258547/85229344-0e784d00-b3e1-11ea-8bdf-9c23fc169a19.jpg)
 
 It is recommended to try this on a conda environment.
