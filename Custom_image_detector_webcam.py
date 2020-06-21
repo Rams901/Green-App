@@ -6,14 +6,6 @@ Created on Tue Dec  3 00:05:18 2019
 """
 
 ######## Webcam Object Detection Using Tensorflow-trained Classifier #########
-#
-# Author: Evan Juras
-# Date: 1/20/18
-# Description: 
-# This program uses a TensorFlow-trained classifier to perform object detection.
-# It loads the classifier and uses it to perform object detection on a webcam feed.
-# It draws boxes, scores, and labels around the objects of interest in each frame
-# from the webcam.
 
 ## Some of the code is copied from Google's example at
 ## https://github.com/tensorflow/models/blob/master/research/object_detection/object_detection_tutorial.ipynb
@@ -144,10 +136,7 @@ while(video.isOpened()):
             #After 2 seconds, another random sticker will be chosen:
     else:
         break        
-            # Clean up
-video.release()
-cv2.destroyAllWindows()
-# In[]
 # Clean up
 video.release()
 cv2.destroyAllWindows()
+
