@@ -18,3 +18,8 @@ Here is an example on how it would look like in your phone camera.
 
 It is recommended to try this on a conda environment.
 
+custom_image_detector.py is where you can put an image path and it will detect all the trees, plants, flowers there.
+custom_image_detector_webcam.py is where you provide your video link and it will iterate through different frames and do the same steps
+in custom_image_detector.py
+vis_stickers.py is where the real editing on the image happens. It was taken from the open-sourced tensorflow utils and made many changes in order to have stickers not rectangles surrounding the plant.
+
