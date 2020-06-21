@@ -13,8 +13,9 @@ in this link https://github.com/tensorflow/models/tree/master/research/object_de
 
 The greenpet.rar has the files for the Application on androidstudio.
 
-Here is an example on how our model generates stickers for flowers:
+Here is are examples on how our model generates stickers for flowers:
 ![helloword4](https://user-images.githubusercontent.com/47258547/85229344-0e784d00-b3e1-11ea-8bdf-9c23fc169a19.jpg)
+![helloword4](https://user-images.githubusercontent.com/47258547/85233749-adf90800-b400-11ea-8cc0-44ac75bd6e81.jpg)
 
 It is recommended to try this on a conda environment.
 
