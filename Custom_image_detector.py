@@ -95,7 +95,7 @@ import random
 sticker_list = ["260792876014212.png", "Cara_kawaii_1.png", "Untitled-1.png", "faces-kawaii-japones-kawai-cute-candy-landy-fofos-brushes-photoscape-by-thata-schultz004.png", "faces-kawaii-japones-kawai-cute-candy-landy-fofos-brushes-photoscape-by-thata-schultz002.png", "faces-kawaii-japones-kawai-cute-candy-landy-fofos-brushes-photoscape-by-thata-schultz001.png"]
 
 index = random.randint(0, len(sticker_list)-1)
-inedx = 3
+
 
 
 # Draw the results of the detection (aka 'visulaize the results')
@@ -112,7 +112,6 @@ vis_util.visualize_boxes_and_labels_on_image_array(
 
 # All the results have been drawn on image. Now display the image.
 cv2.imshow('Object detector', cv2.resize(image, (600,800)))
-cv2.imwrite('helloword4.jpg', image)
 
 # Press any key to close the image
 cv2.waitKey(0)
